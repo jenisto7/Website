@@ -1,8 +1,6 @@
-import React, {useContext} from 'react';
-import {UserContext} from './ComponentA.jsx';
-function ComponentD() {
+import React from 'react';
+function ComponentD({user}) {
 
-    const user = useContext(UserContext);
     return(
         <div className="box">
             <h1>ComponentD</h1>
@@ -10,4 +8,4 @@ function ComponentD() {
         </div>
     )
 }
-export default ComponentD
+export default ComponentD;

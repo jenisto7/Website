@@ -1,9 +1,10 @@
+import React from "react";
 import ComponentD from "./ComponentD.jsx";
-function ComponentC() {
+function ComponentC({ user}) {
     return(
         <div className="box">
             <h1>ComponentC</h1>
-            <ComponentD />
+            <ComponentD user={user} />
         </div>
     )
 }
