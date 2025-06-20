@@ -1,8 +1,14 @@
-import ComponentA from "./ComponentA.jsx";
 import React from "react";
+import { Store } from './Store.jsx'
+import { Navbar } from './Navbar.jsx'
 
 function App() {
-  return(<ComponentA />)
+  return(
+    <>
+    <Navbar />
+    <Store />
+  </>
+)
 }
 
 export default App
