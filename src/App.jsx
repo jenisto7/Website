@@ -1,14 +1,12 @@
-import React from "react";
-import { Store } from './Store.jsx'
-import { Navbar } from './Navbar.jsx'
+import React from 'react';
+import RegistrationForm from './RegistrationForm';
 
 function App() {
-  return(
-    <>
-    <Navbar />
-    <Store />
-  </>
-)
+  return (
+    <div>
+      <RegistrationForm />
+    </div>
+  );
 }
 
-export default App
+export default App;
